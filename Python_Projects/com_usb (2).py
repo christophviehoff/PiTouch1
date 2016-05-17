@@ -180,6 +180,7 @@ def serial_ports():
             bytesize=serial.EIGHTBITS,
             timeout=1
         )
+
     except (serial.SerialException,IndexError) :
         print "No Active serial ports found:"
 
