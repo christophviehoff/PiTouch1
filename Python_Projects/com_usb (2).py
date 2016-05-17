@@ -169,7 +169,6 @@ def serial_ports():
         open_ports.append(port.device)
     print open_ports
 
-
     try:# port configuration
         ser = serial.Serial(
             #port='COMx',  #for windows
